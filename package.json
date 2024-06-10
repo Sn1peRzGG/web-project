@@ -1,0 +1,14 @@
+{
+	"name": "web-project",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"tailwindcss": "^3.4.4"
+	}
+}
