@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html, body {
+	height: 100%;
+	margin: 0;
+}
 header{
 	width: 100%;
     display: flex;
@@ -10,9 +14,25 @@ header{
     justify-content: center;
     align-items: center;
 }
+section{
+	color: #000000;
+	flex: 1;
+}
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color: #abbaba;
+	color: #000;
+  }
 body {
+	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+	line-height:1.5;
+	font-family:sans-serif;
+	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
+	display: flex;
+    flex-direction: column;
 }
 .wrapper {
 	display: grid;
