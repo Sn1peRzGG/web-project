@@ -1,9 +1,8 @@
 .conteiners{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     padding-top: 20px;
     text-transform: none;
+    flex-direction: row;
 }
 .conteiners .conteiner{
     display: flex;
@@ -13,6 +12,7 @@
     border: 1px solid #dacece;
     border-radius: 6px;
     color: black;
+    margin-left: 25px;
 }
 .conteiners .conteiner .left-conteiner{
     display: flex;
@@ -32,7 +32,7 @@
     font: bold;
     font-family: 'Times New Roman', Times, serif;
 }
-.conteiners .conteiner .left-conteiner .data{
+.conteiners .conteiner .left-conteiner .date{
     color:rgb(126, 125, 125);
     font-size: 22px;
     font: bold;
